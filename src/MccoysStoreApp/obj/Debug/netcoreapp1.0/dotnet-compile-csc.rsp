@@ -173,5 +173,8 @@
 -resource:"c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\obj\Debug\netcoreapp1.0\MccoysStoreAppdotnet-compile.deps.json",MccoysStoreApp.deps.json
 "c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Program.cs"
 "c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Startup.cs"
+"c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\StoreController.cs"
 "c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\ValuesController.cs"
+"c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\IStoreRepository.cs"
 "c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\Store.cs"
+"c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\StoreRepository.cs"

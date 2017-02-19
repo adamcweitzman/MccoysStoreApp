@@ -9,6 +9,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MccoysStoreApp.Models
 {
+    public class StoreList
+    {
+        public List<Store> storeList = new List<Store>();
+    }
+
     public class Store
     {
         public int StoreNumber { get; set; }
