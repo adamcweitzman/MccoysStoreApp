@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.AspNetCore.Http;
 
 namespace MccoysStoreApp
 {
@@ -36,7 +38,7 @@ namespace MccoysStoreApp
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-
+            services.AddRouting();
             services.AddMvc();
         }
 
@@ -51,6 +53,26 @@ namespace MccoysStoreApp
             app.UseApplicationInsightsExceptionTelemetry();
 
             app.UseMvc();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+            //var trackPackageRouteHandler = new RouteHandler(context =>
+            //{
+            //    var routeValues = context.GetRouteData().Values;
+            //    return context.Response.WriteAsync(
+            //        $"Hello! Route values: {string.Join(", ", routeValues)}");
+            //});
+
+            //RouteBuilder routeBuilder = new RouteBuilder(app, trackPackageRouteHandler);
+            //routeBuilder.MapRoute(
+            //    name: "default",
+            //    template: "{controller=Home}/{action=Index}/{id?}")
+            //);
         }
     }
 }

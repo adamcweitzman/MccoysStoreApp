@@ -12,23 +12,23 @@ namespace MccoysStoreApp.Controllers
     [Route("api/[controller]")]
     public class StoreController : Controller
     {
-        public StoreController(IStoreRepository storeItems)
-        {
-            StoreItems = storeItems;
-        }
-        public IStoreRepository StoreItems { get; set; }
+        ////public StoreController(IStoreRepository storeItems)
+        //{
+        //    StoreItems = storeItems;
+        //}
+        //public IStoreRepository StoreItems { get; set; }
 
-        //[HttpGet]
+        //[HttpGet ""]
         //public IEnumerable<StoreList> GetAll()
         //{
-        //    return 
+        //    return
         //}
 
         // GET: api/values
-        [HttpGet]
+        [HttpGet()]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "in the", "store controller" };
         }
 
         // GET api/values/5
