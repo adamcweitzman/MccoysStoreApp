@@ -9,16 +9,9 @@ using MccoysStoreApp.Models;
 
 namespace MccoysStoreApp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class StoreController : Controller
     {
-        // GET: api/values
-        [HttpGet()]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "in the", "store controller" };
-        }
-
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)

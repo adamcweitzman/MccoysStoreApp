@@ -43,9 +43,12 @@ namespace MccoysStoreApp.Models
             return ans;
         }
 
-        public Store StoreDetail()
+        public IQueryable<Store> StoreDetail()
         {
-            throw new NotImplementedException();
+            StoreContext storeContext = new StoreContext();
+            var ans = storeContext.Set<Store>();
+
+            return ans;
         }
 
         private void CleanDataAndStore()

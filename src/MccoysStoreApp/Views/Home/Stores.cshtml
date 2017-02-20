@@ -12,7 +12,7 @@
     @foreach (var store in Model.StoreList)
     {
     <ul>
-        <h3>@store.StoreNumber @store.StoreName</h3>
+        <h3 style="display:inline-block">NUMBER: @store.StoreNumber     NAME: @store.StoreName    DETAILS:<a href="/store/@store.StoreNumber">GetStoreDetails</a></h3>
     </ul>
     
     }
