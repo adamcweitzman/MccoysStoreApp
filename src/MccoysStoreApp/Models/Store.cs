@@ -5,10 +5,23 @@ using System.Threading.Tasks;
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 
 namespace MccoysStoreApp.Models
 {
+    public class BloggingContext : DbContext
+    {
+        public DbSet<Store> Store { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MyDatabase;Trusted_Connection=True;");
+        }
+    }
+
+
     public class StoreList
     {
         public List<Store> storeList = new List<Store>();
