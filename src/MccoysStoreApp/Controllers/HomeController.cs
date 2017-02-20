@@ -29,6 +29,8 @@ namespace MccoysStoreApp.Controllers
         [HttpGet("/stores")]
         public IActionResult Stores()
         {
+            var list = storeRepository.StoreList();
+
             return View();
         }
     }

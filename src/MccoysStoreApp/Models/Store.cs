@@ -19,12 +19,18 @@ namespace MccoysStoreApp.Models
         }
     }
 
+    [Table("mccoyssampledata")]
     public class Store
     {
+        [Key]
         public int StoreNumber { get; set; }
+
         public string StoreName { get; set; }
+
         public string StoreManagerName { get; set; }
+
         public string OpeningTime { get; set; }
+
         public string ClosingTime { get; set; }
     }
 

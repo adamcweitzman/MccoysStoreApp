@@ -62,7 +62,7 @@
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.1.0\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Configuration\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
---reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll
+--reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Configuration.Binder\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.Binder.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Configuration.EnvironmentVariables\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Configuration.FileExtensions\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -78,10 +78,10 @@
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Globalization.CultureInfoCache\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Globalization.CultureInfoCache.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Localization\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Localization.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Localization.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Localization.Abstractions.dll
---reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Logging\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll
+--reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Logging\1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll
---reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Logging.Console\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Logging.Console.dll
---reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Logging.Debug\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Logging.Debug.dll
+--reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Logging.Console\1.1.0\lib\netstandard1.3\Microsoft.Extensions.Logging.Console.dll
+--reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Logging.Debug\1.1.0\lib\netstandard1.3\Microsoft.Extensions.Logging.Debug.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.ObjectPool\1.1.0\lib\netstandard1.3\Microsoft.Extensions.ObjectPool.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Options\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Options.dll
 --reference:C:\Users\adamc\.nuget\packages\Microsoft.Extensions.Options.ConfigurationExtensions\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
