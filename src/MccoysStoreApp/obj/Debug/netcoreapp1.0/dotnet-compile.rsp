@@ -1,5 +1,5 @@
---temp-output:c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\obj\Debug\netcoreapp1.0\
---out:c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\bin\Debug\netcoreapp1.0\MccoysStoreApp.dll
+--temp-output:C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\obj\Debug\netcoreapp1.0\
+--out:C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\bin\Debug\netcoreapp1.0\MccoysStoreApp.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -182,11 +182,11 @@
 --reference:C:\Users\adamc\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\adamc\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\adamc\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\obj\Debug\netcoreapp1.0\MccoysStoreAppdotnet-compile.deps.json",MccoysStoreApp.deps.json
-c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Program.cs
-c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Startup.cs
-c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\StoreController.cs
-c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\ValuesController.cs
-c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\IStoreRepository.cs
-c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\Store.cs
-c:\users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\StoreRepository.cs
+--resource:"C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\obj\Debug\netcoreapp1.0\MccoysStoreAppdotnet-compile.deps.json",MccoysStoreApp.deps.json
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Program.cs
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Startup.cs
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\StoreController.cs
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\ValuesController.cs
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\IStoreRepository.cs
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\Store.cs
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\StoreRepository.cs

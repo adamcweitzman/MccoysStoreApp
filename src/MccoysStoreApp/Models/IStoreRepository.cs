@@ -7,9 +7,9 @@ namespace MccoysStoreApp.Models
 {
     public interface IStoreRepository
     {
+        List<Store> StoreList();
+        Store StoreDetail();
         void Add(Store store);
-        Store GetAll();
-        Store Find(long key);
         void Remove(long key);
         void Update(Store item);
     }

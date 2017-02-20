@@ -11,9 +11,9 @@ using System.Collections.Generic;
 
 namespace MccoysStoreApp.Models
 {
-    public class BloggingContext : DbContext
+    public class StoreContext : DbContext
     {
-        public DbSet<Store> Store { get; set; }
+        public DbSet<Store> Stores { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -22,10 +22,10 @@ namespace MccoysStoreApp.Models
     }
 
 
-    public class StoreList
-    {
-        public List<Store> storeList = new List<Store>();
-    }
+    //public class StoreList
+    //{
+    //    public List<Store> storeList = new List<Store>();
+    //}
 
     public class Store
     {

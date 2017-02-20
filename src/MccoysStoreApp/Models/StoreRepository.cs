@@ -14,28 +14,23 @@ namespace MccoysStoreApp.Models
             throw new NotImplementedException();
         }
 
-        public Store Find(long key)
-        {
-            throw new NotImplementedException();
-        }
-
-        //public IEnumerable<Store> GetAll()
-        //{
-        //    throw new NotImplementedException();
-        //}
-
         public void Remove(long key)
         {
             
             throw new NotImplementedException();
         }
 
-        public Store GetAll()
+        public void Update(Store item)
         {
-            return store;
+            throw new NotImplementedException();
         }
 
-        public void Update(Store item)
+        public List<Store> StoreList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Store StoreDetail()
         {
             throw new NotImplementedException();
         }
