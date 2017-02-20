@@ -43,12 +43,12 @@ namespace MccoysStoreApp.Models
             return ans;
         }
 
-        public IQueryable<Store> StoreDetail()
+        public Store GetDetails(string id)
         {
             StoreContext storeContext = new StoreContext();
-            var ans = storeContext.Set<Store>();
+            Store storeDetails = storeContext.Stores.First(s => s.StoreNumber == id);
 
-            return ans;
+            return storeDetails;
         }
 
         private void CleanDataAndStore()

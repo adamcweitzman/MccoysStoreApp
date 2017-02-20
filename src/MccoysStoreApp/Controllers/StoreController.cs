@@ -12,10 +12,17 @@ namespace MccoysStoreApp.Controllers
     [Route("[controller]")]
     public class StoreController : Controller
     {
+        public IStoreRepository storeRepository { get; set; }
+
+        public StoreController(IStoreRepository storeRepository)
+        {
+            this.storeRepository = storeRepository;
+        }
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string GetDetails(string id)
         {
+            storeRepository.GetDetails(id);
             return "value";
         }
 
