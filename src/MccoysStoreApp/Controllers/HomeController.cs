@@ -12,9 +12,9 @@ namespace MccoysStoreApp.Controllers
     public class HomeController : Controller
     {
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Index()
         {
-            return new string[] { "In the", "home controller" };
+            return View();
         }
     }
 }
