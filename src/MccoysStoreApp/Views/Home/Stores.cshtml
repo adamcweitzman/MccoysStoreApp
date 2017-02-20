@@ -1,6 +1,6 @@
 ﻿
 
-
+@model MccoysStoreApp.ViewModels.StoreViewModel
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +9,12 @@
 </head>
 <body>
     <h1>You are in the stores! :)</h1>
+    @foreach (var store in Model.StoreList)
+    {
+    <ul>
+        <h3>@store.StoreNumber @store.StoreName</h3>
+    </ul>
     
+    }
 </body>
 </html>

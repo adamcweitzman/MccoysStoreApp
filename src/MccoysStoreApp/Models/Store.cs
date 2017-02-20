@@ -32,6 +32,7 @@ namespace MccoysStoreApp.Models
         public string OpeningTime { get; set; }
 
         public string ClosingTime { get; set; }
+
     }
 
 }
