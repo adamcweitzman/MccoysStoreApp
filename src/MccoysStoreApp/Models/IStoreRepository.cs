@@ -7,7 +7,7 @@ namespace MccoysStoreApp.Models
 {
     public interface IStoreRepository
     {
-        List<string> StoreList();
+        Dictionary<string, string> StoreList();
         Store StoreDetail();
         void Add(Store store);
         void Remove(long key);

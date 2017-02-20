@@ -35,16 +35,25 @@ namespace MccoysStoreApp.Models
             throw new NotImplementedException();
         }
 
-        public List<string> StoreList()
+        public Dictionary<string, string> StoreList()
         {
+            Dictionary<string, string> storeNameAndUrlDict = new Dictionary<string, string>();
             using (var db = new StoreContext())
             {
-                var blogs = db.Stores
-                    .Select(s => s.StoreName)
+                var numbers = db.Stores
+                    .Select(x => x.StoreNumber)
+                    .ToList();
+                var names = db.Stores
+                    .Select(x => x.StoreName)
                     .ToList();
 
+                for (int i = 0; i < numbers.Count; i++)
+                {
+                    storeNameAndUrlDict.Add(numbers[i].ToString(), string.Format("/store/{0}", numbers[i]));
+                }
 
-                return blogs;
+
+                return storeNameAndUrlDict;
             }
         }
 

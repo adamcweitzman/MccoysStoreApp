@@ -23,7 +23,7 @@ namespace MccoysStoreApp.Models
     public class Store
     {
         [Key]
-        public int StoreNumber { get; set; }
+        public string StoreNumber { get; set; }
 
         public string StoreName { get; set; }
 
