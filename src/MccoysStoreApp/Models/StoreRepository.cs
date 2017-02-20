@@ -2,12 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace MccoysStoreApp.Models
 {
-    public class StoreRepository : IStoreRepository
+    public class StoreRepository :  IStoreRepository
     {
-        private readonly Store store;
+        public class StoreContext : DbContext
+        {
+            public DbSet<Store> Stores { get; set; }
+
+            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            {
+                optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-H1TS5BO\LOCALSQLEXPRESS;Initial Catalog=mccoystest;Integrated Security=True");
+            }
+        }
 
         public void Add(Store store)
         {
@@ -25,9 +34,17 @@ namespace MccoysStoreApp.Models
             throw new NotImplementedException();
         }
 
-        public List<Store> StoreList()
+        public List<string> StoreList()
         {
-            throw new NotImplementedException();
+            using (var db = new StoreContext())
+            {
+                var blogs = db.Stores
+                    .Select(s => s.StoreName)
+                    .ToList();
+
+
+                return blogs;
+            }
         }
 
         public Store StoreDetail()

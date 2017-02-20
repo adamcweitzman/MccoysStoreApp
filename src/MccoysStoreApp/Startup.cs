@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Http;
+using MccoysStoreApp.Models;
 
 namespace MccoysStoreApp
 {
@@ -40,6 +41,7 @@ namespace MccoysStoreApp
             services.AddApplicationInsightsTelemetry(Configuration);
             services.AddRouting();
             services.AddMvc();
+            services.AddSingleton<IStoreRepository, StoreRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline

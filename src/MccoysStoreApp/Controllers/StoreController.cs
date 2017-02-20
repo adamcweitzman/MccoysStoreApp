@@ -12,18 +12,6 @@ namespace MccoysStoreApp.Controllers
     [Route("api/[controller]")]
     public class StoreController : Controller
     {
-        ////public StoreController(IStoreRepository storeItems)
-        //{
-        //    StoreItems = storeItems;
-        //}
-        //public IStoreRepository StoreItems { get; set; }
-
-        //[HttpGet ""]
-        //public IEnumerable<StoreList> GetAll()
-        //{
-        //    return
-        //}
-
         // GET: api/values
         [HttpGet()]
         public IEnumerable<string> Get()

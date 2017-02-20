@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MccoysStoreApp", "src\MccoysStoreApp\MccoysStoreApp.xproj", "{69592316-AC44-4A7C-94BF-E0A4E3614108}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DataAccessLayer", "src\DataAccessLayer\DataAccessLayer.xproj", "{24C3BBE8-83B0-47C9-A046-55B343D7F143}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,16 +23,11 @@ Global
 		{69592316-AC44-4A7C-94BF-E0A4E3614108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69592316-AC44-4A7C-94BF-E0A4E3614108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69592316-AC44-4A7C-94BF-E0A4E3614108}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24C3BBE8-83B0-47C9-A046-55B343D7F143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24C3BBE8-83B0-47C9-A046-55B343D7F143}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24C3BBE8-83B0-47C9-A046-55B343D7F143}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24C3BBE8-83B0-47C9-A046-55B343D7F143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69592316-AC44-4A7C-94BF-E0A4E3614108} = {C82194C2-F819-4451-AA18-AE2CF252AEBE}
-		{24C3BBE8-83B0-47C9-A046-55B343D7F143} = {C82194C2-F819-4451-AA18-AE2CF252AEBE}
 	EndGlobalSection
 EndGlobal
