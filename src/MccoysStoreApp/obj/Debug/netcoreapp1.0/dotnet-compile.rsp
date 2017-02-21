@@ -206,9 +206,9 @@
 --resource:"C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\obj\Debug\netcoreapp1.0\MccoysStoreAppdotnet-compile.deps.json",MccoysStoreApp.deps.json
 C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Program.cs
 C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Startup.cs
+C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\ApiController.cs
 C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\HomeController.cs
 C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\StoreController.cs
-C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Controllers\ValuesController.cs
 C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\IStoreRepository.cs
 C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\Store.cs
 C:\Users\adamc\documents\visual studio 2015\Projects\MccoysStoreApp\src\MccoysStoreApp\Models\StoreRepository.cs

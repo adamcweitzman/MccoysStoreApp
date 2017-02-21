@@ -21,7 +21,9 @@ namespace MccoysStoreApp.Models
 
         public void Add(Store store)
         {
-            throw new NotImplementedException();
+            StoreContext storeContext = new StoreContext();
+            storeContext.Stores.Add(store);
+            storeContext.SaveChanges();
         }
 
         public void Remove(long key)
