@@ -15,7 +15,8 @@ namespace MccoysStoreApp.Models
 
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-                optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-H1TS5BO\LOCALSQLEXPRESS;Initial Catalog=mccoystest;Integrated Security=True");
+                //hardcode connection string to database here
+                optionsBuilder.UseSqlServer(@"");
             }
         }
 
