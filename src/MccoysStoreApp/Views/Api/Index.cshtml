@@ -1,0 +1,46 @@
+﻿@model MccoysStoreApp.Models.Store
+
+@using (Html.BeginForm())
+{
+    
+    <div class="editor-label">
+        @Html.LabelFor(model => model.StoreName)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.StoreName)
+        @Html.ValidationMessageFor(model => model.StoreName)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.StoreNumber)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.StoreNumber)
+        @Html.ValidationMessageFor(model => model.StoreNumber)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.StoreManagerName)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.StoreManagerName)
+        @Html.ValidationMessageFor(model => model.StoreManagerName)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.OpeningTime)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.OpeningTime)
+        @Html.ValidationMessageFor(model => model.OpeningTime)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.ClosingTime)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.ClosingTime)
+        @Html.ValidationMessageFor(model => model.ClosingTime)
+    </div>
+    <input type="submit" value="Add Store" />
+}

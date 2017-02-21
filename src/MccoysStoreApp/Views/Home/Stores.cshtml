@@ -1,0 +1,20 @@
+﻿
+
+@model MccoysStoreApp.ViewModels.StoreViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>You are in the stores! :)</h1>
+    @foreach (var store in Model.StoreList)
+    {
+    <ul>
+        <h3 style="display:inline-block">NUMBER: @store.StoreNumber     NAME: @store.StoreName    DETAILS:<a href="/store/@store.StoreNumber">GetStoreDetails</a></h3>
+    </ul>
+    
+    }
+</body>
+</html>

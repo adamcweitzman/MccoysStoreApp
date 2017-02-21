@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.AspNetCore.Http;
+using MccoysStoreApp.Models;
 
 namespace MccoysStoreApp
 {
@@ -36,8 +39,9 @@ namespace MccoysStoreApp
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-
+            services.AddRouting();
             services.AddMvc();
+            services.AddSingleton<IStoreRepository, StoreRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -51,6 +55,26 @@ namespace MccoysStoreApp
             app.UseApplicationInsightsExceptionTelemetry();
 
             app.UseMvc();
+
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Get}");
+            //});
+
+            //var trackPackageRouteHandler = new RouteHandler(context =>
+            //{
+            //    var routeValues = context.GetRouteData().Values;
+            //    return context.Response.WriteAsync(
+            //        $"Hello! Route values: {string.Join(", ", routeValues)}");
+            //});
+
+            //RouteBuilder routeBuilder = new RouteBuilder(app, trackPackageRouteHandler);
+            //routeBuilder.MapRoute(
+            //    name: "default",
+            //    template: "{controller=Home}/{action=Index}/{id?}")
+            //);
         }
     }
 }
